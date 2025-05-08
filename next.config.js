@@ -1,11 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
-  experimental: {
-    serverActions: true,
-  },
   images: {
-    domains: ['images.unsplash.com'],
+    domains: ['picsum.photos'], // Harici görsel domainlerini buraya ekliyoruz
   },
 };
 

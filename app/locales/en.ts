@@ -106,3 +106,4 @@ export const en = {
     patent: 'Patent TR 2025/16654',
   },
 };
+ 
