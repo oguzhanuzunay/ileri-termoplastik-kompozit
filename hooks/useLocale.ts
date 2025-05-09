@@ -33,6 +33,10 @@ export type Locale = {
     type: 'image' | 'video';
     mediaUrl: string;
   }>;
+  gallery: Array<{
+    title: string;
+    description: string;
+  }>;
   lead: {
     heading: string;
     subheading: string;
