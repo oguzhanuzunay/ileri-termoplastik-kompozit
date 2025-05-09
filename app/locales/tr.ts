@@ -21,16 +21,16 @@ export const tr = {
   },
   process: [
     {
-      title: 'UD Prepreg',
-      desc: 'Tek yönlü fiber takviyeli termoplastik prepreg malzemelerin hazırlanması',
+      title: 'Yongalama Prosesi',
+      desc: 'Atık prepregler milimetrik yongalara ayrılır.',
     },
     {
-      title: 'Dilme ve Kesme',
-      desc: 'Prepreg malzemelerin özel boyutlarda dilimlenip kesilmesi',
+      title: 'Rasgele Serpme Prosesi',
+      desc: 'Yongalar titreşimli hatla izotropik pestil oluşturur.',
     },
     {
-      title: 'Rastgele Dağıtma',
-      desc: 'Kesilen parçaların özel sistemle rastgele dağıtılması',
+      title: 'Press İle Şekillendirme Prosesi',
+      desc: '4 dakikada yoğun panel hâline gelir.',
     },
   ],
   stats: {
@@ -105,5 +105,54 @@ export const tr = {
     copy: 'Mir Ar-Ge © 2025 – İstanbul',
     patent: 'Patent TR 2025/16654',
   },
+  awards: [
+    {
+      title: '',
+      description: '',
+      date: '',
+      type: 'image',
+      mediaUrl: '/images/awards/1.jpg',
+    },
+    {
+      title: '',
+      description: '',
+      date: '',
+      type: 'video',
+      mediaUrl: '/videos/awards/2.mp4',
+    },
+    {
+      title: '',
+      description: '',
+      date: '',
+      type: 'image',
+      mediaUrl: '/images/awards/3.jpg',
+    },
+  ],
+  gallery: [
+    {
+      title: 'Dövme Karbon Kaput',
+      description:
+        'Yüksek dayanımlı ve hafif dövme karbon kompozit malzemeden üretilmiş otomobil kaputu',
+    },
+    {
+      title: 'Motor Kapağı ve Parça',
+      description: 'Dövme karbon kompozit motor kapağı ve bağlantı elemanı',
+    },
+    {
+      title: 'Bardaklık ve Konsol',
+      description: 'Otomobil içi dövme karbon kompozit bardaklık ve konsol kaplaması',
+    },
+    {
+      title: 'Otomotiv Parçası',
+      description: 'Dövme karbon kompozit otomotiv bağlantı veya destek parçası',
+    },
+    {
+      title: 'Vites Konsolu',
+      description: 'Dövme karbon kompozit vites konsolu ve kumanda paneli',
+    },
+    {
+      title: 'İç Panel',
+      description: 'Dövme karbon kompozit iç panel veya yapısal otomotiv parçası',
+    },
+  ],
 };
- 

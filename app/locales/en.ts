@@ -105,5 +105,54 @@ export const en = {
     copy: 'Mir R&D © 2025 – Istanbul',
     patent: 'Patent TR 2025/16654',
   },
+  awards: [
+    {
+      title: 'TUBITAK 2242 University Students Research Project Competition',
+      description: 'Ministry of Industry and Technology Special Award',
+      date: '2023',
+      type: 'image',
+      mediaUrl: '/images/awards/1.jpg',
+    },
+    {
+      title: 'ITU Core Big Bang',
+      description: 'Best Technology Award',
+      date: '2023',
+      type: 'video',
+      mediaUrl: '/videos/awards/2.mp4',
+    },
+    {
+      title: 'ITU ARI Technopark',
+      description: 'Best Startup Award',
+      date: '2023',
+      type: 'image',
+      mediaUrl: '/images/awards/3.jpg',
+    },
+  ],
+  gallery: [
+    {
+      title: 'Forged Carbon Hood',
+      description:
+        'Car hood made from high-strength and lightweight forged carbon composite material',
+    },
+    {
+      title: 'Engine Cover and Part',
+      description: 'Forged carbon composite engine cover and mounting part',
+    },
+    {
+      title: 'Cup Holder and Console',
+      description: 'Car interior forged carbon composite cup holder and console trim',
+    },
+    {
+      title: 'Automotive Part',
+      description: 'Forged carbon composite automotive support or connector part',
+    },
+    {
+      title: 'Gear Console',
+      description: 'Forged carbon composite gear console and control panel',
+    },
+    {
+      title: 'Interior Panel',
+      description: 'Forged carbon composite interior panel or structural automotive part',
+    },
+  ],
 };
- 

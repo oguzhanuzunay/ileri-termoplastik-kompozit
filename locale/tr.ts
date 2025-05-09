@@ -6,9 +6,12 @@ export const tr = {
     cta: 'Numune Talep Et',
   },
   process: [
-    { title: 'Yongalama', desc: 'Atık prepregler milimetrik yongalara ayrılır.' },
-    { title: 'Rastgele Serpme', desc: 'Yongalar titreşimli hatla izotropik pestil oluşturur.' },
-    { title: 'Presformlama', desc: '4 dakikada yoğun panel hâline gelir.' },
+    { title: 'Yongalama Prosesi', desc: 'Atık prepregler milimetrik yongalara ayrılır.' },
+    {
+      title: 'Rasgele Serpme Prosesi',
+      desc: 'Yongalar titreşimli hatla izotropik pestil oluşturur.',
+    },
+    { title: 'Press İle Şekillendirme Prosesi', desc: '4 dakikada yoğun panel hâline gelir.' },
   ],
   stats: {
     co2: '-6 kg CO₂ / kg panel',

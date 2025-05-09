@@ -1,40 +1,56 @@
 'use client';
 
 import useEmblaCarousel from 'embla-carousel-react';
-import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { useCallback, useEffect, useState } from 'react';
 
 const GALLERY_IMAGES = [
   {
-    src: '/images/gallery/drone.jpg',
-    alt: 'Drone frame made with recycled carbon panels',
-    title: 'Drone Frame',
-    description: 'Lightweight and durable drone frame utilizing recycled carbon panels',
+    src: '/images/gallery/IMG-20250507-WA0001.jpg',
+    alt: 'Dövme karbon kompozit vites konsolu ve kumanda paneli',
+    title: 'Vites Konsolu',
+    description: 'Dövme karbon kompozit vites konsolu ve kumanda paneli',
     width: 600,
     height: 400,
   },
   {
-    src: '/images/gallery/seat-back.jpg',
-    alt: 'Automotive seat back using recycled carbon panels',
-    title: 'Automotive Seat',
-    description: 'High-performance automotive seat back with superior strength-to-weight ratio',
+    src: '/images/gallery/IMG-20250507-WA0002.jpg',
+    alt: 'Dövme karbon kompozit otomobil kaputu',
+    title: 'Dövme Karbon Kaput',
+    description:
+      'Yüksek dayanımlı ve hafif dövme karbon kompozit malzemeden üretilmiş otomobil kaputu',
     width: 600,
     height: 400,
   },
   {
-    src: '/images/gallery/e-bike.jpg',
-    alt: 'E-bike frame constructed with recycled carbon panels',
-    title: 'E-Bike Frame',
-    description: 'Advanced e-bike frame design combining sustainability with performance',
+    src: '/images/gallery/IMG-20250507-WA0003.jpg',
+    alt: 'Dövme karbon kompozit bardaklık ve konsol kaplaması',
+    title: 'Bardaklık ve Konsol',
+    description: 'Otomobil içi dövme karbon kompozit bardaklık ve konsol kaplaması',
     width: 600,
     height: 400,
   },
   {
-    src: '/images/gallery/speaker.jpg',
-    alt: 'High-end speaker enclosure using recycled carbon panels',
-    title: 'Speaker Enclosure',
-    description: 'Premium audio enclosure featuring exceptional acoustic properties',
+    src: '/images/gallery/IMG-20250507-WA0004.jpg',
+    alt: 'Dövme karbon kompozit iç panel veya yapısal otomotiv parçası',
+    title: 'İç Panel',
+    description: 'Dövme karbon kompozit iç panel veya yapısal otomotiv parçası',
+    width: 600,
+    height: 400,
+  },
+  {
+    src: '/images/gallery/IMG-20250507-WA0005.jpg',
+    alt: 'Dövme karbon kompozit otomotiv parçası',
+    title: 'Otomotiv Parçası',
+    description: 'Dövme karbon kompozit otomotiv bağlantı veya destek parçası',
+    width: 600,
+    height: 400,
+  },
+  {
+    src: '/images/gallery/IMG-20250507-WA0006.jpg',
+    alt: 'Dövme karbon kompozit motor kapağı ve bağlantı parçası',
+    title: 'Motor Kapağı ve Parça',
+    description: 'Dövme karbon kompozit motor kapağı ve bağlantı elemanı',
     width: 600,
     height: 400,
   },

@@ -1,3 +1,4 @@
+import { AwardsSlider } from '@/components/AwardsSlider';
 import { Footer } from '@/components/Footer';
 import { Gallery } from '@/components/Gallery';
 import { Hero } from '@/components/Hero';
@@ -11,6 +12,7 @@ export default function MarketingPage() {
       <Hero />
       <ProcessSection />
       <Stats />
+      <AwardsSlider />
       <Gallery />
       <LeadForm />
       <Footer />

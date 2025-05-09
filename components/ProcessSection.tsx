@@ -62,8 +62,7 @@ export function ProcessSection() {
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Yüksek performanslı kompozit malzemelerin geri dönüşüm sürecinde her adım titizlikle
-            kontrol edilir
+            Termoplastik kompozit malzemelerin üretim sürecinde her adım titizlikle kontrol edilir
           </motion.p>
         </div>
 
@@ -120,4 +119,3 @@ export function ProcessSection() {
     </section>
   );
 }
- 

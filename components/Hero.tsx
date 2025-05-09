@@ -29,7 +29,7 @@ export function Hero() {
           src="/videos/rastgele-serpme-sistemi.mp4"
         />
         {/* Gradient overlays */}
-        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/95 via-slate-900/90 to-white z-10" />
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-900/70 to-white/80 z-10" />
       </div>
 
       {/* Hero content */}

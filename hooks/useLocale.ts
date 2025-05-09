@@ -26,6 +26,13 @@ export type Locale = {
     title: string;
     desc: string;
   }>;
+  awards: Array<{
+    title: string;
+    description: string;
+    date: string;
+    type: 'image' | 'video';
+    mediaUrl: string;
+  }>;
   lead: {
     heading: string;
     subheading: string;
