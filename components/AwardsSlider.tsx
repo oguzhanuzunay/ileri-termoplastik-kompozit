@@ -26,6 +26,25 @@ export function AwardsSlider() {
   return (
     <section className="w-full py-24 bg-slate-50">
       <div className="container mx-auto px-6 lg:px-24">
+        {/* Ödül görseli ve başlık */}
+        <div className="flex flex-col items-center justify-center mb-12">
+          <div className="relative w-40 h-40 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 drop-shadow-xl">
+            <Image
+              src="/images/award.png"
+              alt="RePlast Eurasia 2025 Birincilik Ödülü"
+              fill
+              className="object-contain"
+              priority
+            />
+          </div>
+          <h1 className="mt-6 text-2xl md:text-3xl font-bold text-slate-800 text-center">
+            RePlast Eurasia 2025 Birincilik Ödülü
+          </h1>
+          <p className="mt-2 text-base md:text-lg text-slate-600 text-center max-w-xl">
+            TPC-SMC ürünü ve üretim yöntemiyle RePlast Eurasia 2025 İnovasyon ve Teknoloji
+            Birincilik Ödülü.
+          </p>
+        </div>
         <div className="text-center mb-16">
           <motion.h2
             className="text-3xl md:text-4xl font-bold mb-4"
