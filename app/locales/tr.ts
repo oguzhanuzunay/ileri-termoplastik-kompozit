@@ -163,4 +163,4 @@ export const tr = {
       description: 'Dövme karbon kompozit iç panel veya yapısal otomotiv parçası',
     },
   ],
-};
+} as const;

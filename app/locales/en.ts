@@ -107,25 +107,36 @@ export const en = {
   },
   awards: [
     {
-      title: 'TUBITAK 2242 University Students Research Project Competition',
-      description: 'Ministry of Industry and Technology Special Award',
-      date: '2023',
-      type: 'image',
-      mediaUrl: '/images/awards/1.jpg',
+      title: 'RePlast Eurasia 2025 First Prize',
+      description:
+        'With the TPC-SMC product and production method developed in cooperation with Yıldız Technical University and supported by TÜBİTAK, we won the RePlast Recycling First Prize in the Innovation and Technology Category.',
+      date: '2025',
+      type: 'video',
+      mediaUrl: '/videos/awards/4.mp4',
     },
     {
-      title: 'ITU Core Big Bang',
-      description: 'Best Technology Award',
-      date: '2023',
+      title: 'RePlast Eurasia 2025 Booth Footage',
+      description:
+        'Scenes from the Mir R&D booth: Introduction of the TPC-SMC product and production method.',
+      date: '2025',
+      type: 'video',
+      mediaUrl: '/videos/awards/1.mp4',
+    },
+    {
+      title: 'RePlast Eurasia 2025 Booth Footage',
+      description:
+        'Scenes from the Mir R&D booth: Introduction of the TPC-SMC product and production method.',
+      date: '2025',
       type: 'video',
       mediaUrl: '/videos/awards/2.mp4',
     },
     {
-      title: 'ITU ARI Technopark',
-      description: 'Best Startup Award',
-      date: '2023',
-      type: 'image',
-      mediaUrl: '/images/awards/3.jpg',
+      title: 'RePlast Eurasia 2025 Booth Footage',
+      description:
+        'Scenes from the Mir R&D booth: Introduction of the TPC-SMC product and production method.',
+      date: '2025',
+      type: 'video',
+      mediaUrl: '/videos/awards/3.mp4',
     },
   ],
   gallery: [
@@ -155,4 +166,4 @@ export const en = {
       description: 'Forged carbon composite interior panel or structural automotive part',
     },
   ],
-};
+} as const;
