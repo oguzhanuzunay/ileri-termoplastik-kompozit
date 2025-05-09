@@ -9,31 +9,31 @@ export type Locale = {
     title: string;
     subtitle: string;
     cta: string;
-    highlights: Array<{
+    highlights: ReadonlyArray<{
       title: string;
       description: string;
     }>;
   };
   stats: {
-    sections: Array<{
+    sections: ReadonlyArray<{
       value: string;
       label: string;
       description: string;
       icon: string;
     }>;
   };
-  process: Array<{
+  process: ReadonlyArray<{
     title: string;
     desc: string;
   }>;
-  awards: Array<{
+  awards: ReadonlyArray<{
     title: string;
     description: string;
     date: string;
     type: 'image' | 'video';
     mediaUrl: string;
   }>;
-  gallery: Array<{
+  gallery: ReadonlyArray<{
     title: string;
     description: string;
   }>;
@@ -82,9 +82,8 @@ export function useLocale() {
     // Check browser language
     const browserLang = navigator.language.toLowerCase();
     const isTurkish = browserLang.startsWith('tr');
-
     // Set locale based on browser language
-    setLocale(isTurkish ? tr : en);
+    setLocale(isTurkish ? tr : (en as Locale));
   }, []);
 
   return locale;
